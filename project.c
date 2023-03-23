@@ -12,7 +12,7 @@ int main(void)
     s3 = (total - s1 -s2)/1000 *1000;
     g = (total - s1 -s2) %1000;
 
-    printf("A 부담금액: %d원\n", s1+g);
+    printf("a 부담금액: %d원\n", s1+g);
     printf("B 부담금액: %d원\n", s2);
     printf("C 부담금액: %d원\n", s3);
 
